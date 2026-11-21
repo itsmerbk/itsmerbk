@@ -1,36 +1,39 @@
 # Hi, I'm Bharath Kumar (`@itsmerbk`)
 
 **Computer Science & Engineering Undergraduate @ SRM Institute of Science and Technology**  
-Building low-latency backend infrastructure, AI observability & security middleware, and fault-tolerant distributed tooling.
+Building real-time full-stack systems in **Java 21 (Virtual Threads, JDBC, SQLite WAL)** and **JavaScript**, alongside AI security and cloud observability tooling.
 
 ---
 
-### Career-Focused Systems, Backend & AI Platform Projects
+### Real-Time Full-Stack Applications (Java 21 + Vanilla JavaScript)
 
-| Repository | Engineering Problem & Architecture | Verified Benchmark / CI |
-| :--- | :--- | :--- |
-| **[`trace-lens`](https://github.com/itsmerbk/TraceLens)** | Production AI agent observability & automated eval engine with `@trace_span` SDK, waterfall timeline UI, and CI cost/accuracy regression gates (`Python`, `FastAPI`, `SQLite`). | Automated CI eval gate · Token cost & latency waterfall |
-| **[`idempo-queue`](https://github.com/itsmerbk/IdempoQueue)** | Fault-tolerant webhook & job broker using **Java 21 Virtual Threads**, atomic idempotency keys, lease crash-recovery reapers, exponential backoff, and DLQ replay (`Java 21`, `JDBC`). | 200-webhook burst & worker-crash recovery · GitHub Actions CI |
-| **[`perm-graph`](https://github.com/itsmerbk/PermGraph)** | Google Zanzibar-style Relationship-Based Access Control (ReBAC) graph engine with cycle-safe DFS, explainable proof paths, and Zookie revision cache invalidation (`Python`, `FastAPI`). | **576,173 checks/sec** cached · **0.019 ms** p99 cold graph traversal |
-| **[`logpulse-sre`](https://github.com/itsmerbk/LogPulse-SRE)** | Streaming log anomaly detector & automated `git log -p` root-cause correlator using variable masking template clustering and rolling Z-score spike detection (`Python`, `Rich`). | Automated suspect commit & diff line ranking · GitHub Actions CI |
-| **[`sentinel-proxy`](https://github.com/itsmerbk/sentinel-proxy)** | Real-time LLM tool-call firewall & prompt injection sandbox with Base64 payload decoding, path/shell guards, and SQLite WAL audit telemetry (`Python`, `FastAPI`, `Rich`). | **0.06 ms** avg inspection latency · **100%** red-team suite pass rate |
-| **[`pulse-jvm`](https://github.com/itsmerbk/pulse-jvm)** | Zero-bloat macOS process & network socket profiler streaming native BSD `ps`/`lsof` metrics into indexed SQLite time-series batches with live Unicode CPU sparklines (`Java 21`, `JDBC`). | **0.20 ms** SQLite batch writes · Automated CPU/RSS spike detection |
-| **[`cite-verify`](https://github.com/itsmerbk/cite-verify)** | Offline PDF research engine combining SQLite FTS5 (BM25) retrieval with a deterministic sentence & numeric grounding verifier to flag LLM hallucinations (`Python`, `PyMuPDF`). | Page-level verbatim citations & numeric mismatch interception |
-| **[`rate-guard`](https://github.com/itsmerbk/rate-guard)** | Thread-safe **Token Bucket**, **Sliding Window Log**, and **Leaky Bucket** rate limiters built from scratch with an HTML5 Canvas burst visualizer (`Python`, `FastAPI`, `AsyncIO`). | **7,379 req/s** throughput · **0.14 ms** p99 latency (3,000 concurrent reqs) |
-
----
-
-### Core Stack
-
-* **Languages:** Python, Java (21+ Virtual Threads), SQL, JavaScript, HTML/CSS
-* **Backend & Distributed Systems:** FastAPI, JDBC, Multithreading (`ExecutorService`), Idempotency, Rate Limiting, ReBAC Graph Authorization, Docker, GitHub Actions CI
-* **Databases & Storage:** SQLite (WAL Mode, FTS5 Full-Text Search, Composite Indexing)
-* **AI Infrastructure & SRE:** LLMOps Tracing & Evals, Prompt Injection Defense, Deterministic RAG Verification, Log Anomaly & Root-Cause Analysis
+| # | Repository | Domain & Core Engineering | Architecture Highlights |
+| :-: | :--- | :--- | :--- |
+| **1** | **[`StaySync`](https://github.com/itsmerbk/StaySync)** | **Hotel Management & Dynamic Booking** | ACID double-booking lock, +15% occupancy surge pricing, room-service folios, 12% GST invoices, and housekeeping queue. |
+| **2** | **[`MediQueue`](https://github.com/itsmerbk/MediQueue)** | **Hospital OPD Triage & Token Board** | Emergency priority preemption (`CRITICAL` → `URGENT` → `NORMAL`), atomic cabin locks, and digital prescription ledger. |
+| **3** | **[`DineFlow`](https://github.com/itsmerbk/DineFlow)** | **Restaurant POS & Kitchen Display (KDS)** | Interactive dining floor plan, live KOT prep SLA timers, 5% GST billing, and instant split-bill calculator. |
+| **4** | **[`ParkGrid`](https://github.com/itsmerbk/ParkGrid)** | **Smart Multi-Level Parking & EV Chargers** | Automated bay allocation, EV charger reservation, duplicate license-plate guard, and hourly + kWh tariff billing. |
+| **5** | **[`FleetTrack`](https://github.com/itsmerbk/FleetTrack)** | **Live Delivery Dispatch & SLA Radar** | HTML5 Canvas city radar map, Euclidean nearest-rider dispatch, kinematic telemetry ticks, and SLA breach alerts. |
+| **6** | **[`VaultLedger`](https://github.com/itsmerbk/VaultLedger)** | **Core Banking & Fraud Velocity Monitor** | Double-entry general ledger (`DEBIT == CREDIT`), idempotency keys, velocity burst detection, and account freeze controls. |
+| **7** | **[`EventPulse`](https://github.com/itsmerbk/EventPulse)** | **Flash-Sale Arena & TTL Seat Locking** | Interactive seat map, 90-second TTL hold locks with background Virtual Thread reaper, and flash-sale bot rush simulator. |
+| **8** | **[`StockSync`](https://github.com/itsmerbk/StockSync)** | **Multi-Warehouse Inventory POS & ERP** | Multi-branch stock matrix, atomic oversell rollback, inter-warehouse transfers, and supplier Purchase Order (PO) flow. |
+| **9** | **[`CampusDesk`](https://github.com/itsmerbk/CampusDesk)** | **Anti-Cheating Exam Hall Seat Allocator** | Graph-coloring seat allocator guaranteeing 0 adjacent same-subject seats, visual hall grid, and live roll-call sync. |
+| **10** | **[`WorkPulse`](https://github.com/itsmerbk/WorkPulse)** | **Agile Kanban Sprint Board & WIP Enforcer** | HTML5 Drag-and-Drop Kanban board, ACID column Work-In-Progress (WIP) limits, and live cycle-time velocity analytics. |
 
 ---
 
-### Certifications & Technical Initiatives
+### Systems, AI Infrastructure & SRE Tooling
 
-* **HackerRank Certified:** Python & Java Skill Certifications
-* **ISRO (IIRS):** Remote Sensing & Geospatial Distance Learning Certification
-* **Hackathons & Bootcamps:** IBM Z Datathon 2026 (*TruthShield*), SUSTAIN Agentic Bootcamp 2026, Finlatics Full-Stack Development with AI
+* **[`TraceLens`](https://github.com/itsmerbk/TraceLens)** — AI agent observability `@trace_span` SDK, latency/token waterfall UI, and automated CI cost/accuracy regression gates.
+* **[`IdempoQueue`](https://github.com/itsmerbk/IdempoQueue)** — Java 21 Virtual Threads webhook & job broker with atomic idempotency keys, lease crash recovery, and Dead Letter Queue replay.
+* **[`PermGraph`](https://github.com/itsmerbk/PermGraph)** — Zanzibar-style Relationship-Based Access Control (ReBAC) graph resolver (`576,173 checks/sec` cached, `0.019 ms` p99 cold traversal).
+* **[`LogPulse-SRE`](https://github.com/itsmerbk/LogPulse-SRE)** — Streaming log variable-masking template miner, Z-score anomaly detector, and `git log -p` root-cause commit correlator.
+* **[`sentinel-proxy`](https://github.com/itsmerbk/sentinel-proxy)** · **[`pulse-jvm`](https://github.com/itsmerbk/pulse-jvm)** · **[`cite-verify`](https://github.com/itsmerbk/cite-verify)** · **[`rate-guard`](https://github.com/itsmerbk/rate-guard)**
+
+---
+
+### Core Tech Stack & Certifications
+
+* **Languages & Backend:** Java 21 (Virtual Threads, `HttpServer`, JDBC), Python (FastAPI, AsyncIO), JavaScript (ES6+, HTML5 Canvas, Drag-and-Drop), SQL (SQLite WAL, FTS5)
+* **DevOps & Quality:** GitHub Actions CI, Docker, Automated Assertion & `pytest` Suites
+* **Certifications:** HackerRank Certified (Python & Java) · ISRO (IIRS) Geospatial Distance Learning
