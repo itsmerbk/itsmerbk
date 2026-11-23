@@ -23,3 +23,5 @@ Systems Engineering • Distributed Computing • Storage Engines • Zero-Trust
 * **Master 500-Project Index:** [`500-cs-engineering-lab/README.md`](https://github.com/itsmerbk/500-cs-engineering-lab#complete-500-project-index)
 * **Master 100-Project Index:** [`100-cs-systems-lab/README.md`](https://github.com/itsmerbk/100-cs-systems-lab)
 * **All Repositories Tab:** [`github.com/itsmerbk?tab=repositories`](https://github.com/itsmerbk?tab=repositories)
+
+* **DSA & Algorithmic Problem Solving:** [`itsmerbk/leetcode-solution`](https://github.com/itsmerbk/leetcode-solution) — Auto-synced LeetCode solutions with complexity analysis
